@@ -1,0 +1,5 @@
+269
+[ (DEOPT) ,  (node 1, served at 84, window: 75 105) ,  (node 3, served at 95, window: 75 105) ,  (node 6, served at 105, window: 105 135) ,  (DEOPT) ,  (node 9, served at 125, window: 120 150) ,  (node 7, served at 132, window: 120 150) ,  (node 2, served at 142, window: 135 165) ,  (DEOPT) ,  (node 10, served at 165, window: 165 195) ,  (node 5, served at 176, window: 165 195) ,  (node 12, served at 189, window: 180 210) ,  (DEOPT) ]
+[ (DEOPT) ,  (node 4, served at 45, window: 45 75) ,  (DEOPT) ,  (node 15, served at 75, window: 75 105) ,  (DEOPT) ,  (node 16, served at 135, window: 135 165) ,  (DEOPT) ]
+[ (DEOPT) ,  (node 14, served at 84, window: 75 105) ,  (node 21, served at 96, window: 75 105) ,  (node 17, served at 105, window: 105 135) ,  (DEOPT) ,  (node 13, served at 120, window: 105 135) ,  (node 11, served at 130, window: 105 135) ,  (node 8, served at 139, window: 135 165) ,  (DEOPT) ]
+[ (DEOPT) ,  (node 18, served at 127, window: 120 150) ,  (node 20, served at 135, window: 135 165) ,  (node 19, served at 147, window: 120 150) ,  (DEOPT) ]
