@@ -10,6 +10,7 @@ from src.dataStructure import *
 from vrptw import drawSolution, read_json_file, getNodesFromGraph, read_info_file
 
 DATASET = '2l_cvrp_0/E016-03m.dat'
+#DATASET = '2l_cvrp_0/E051-05e.dat'
 #DATASET = 'homberger_200_customer_instances/C1_2_1.TXT'
 
 DATASET = '../datasets/' + DATASET
@@ -251,7 +252,6 @@ if __name__ == '__main__':
 
 			print(f'Choosen vehicle: {choosenVehicle}, choosen node: {choosenNodeId}')
 
-			print(f"Path is going to be {'/'.join(DATASET.split('/')[2:])}")
 			drawSolution(VEHICLES, g, "Iteration " + str(iteration) + " vehicle " + str(choosenVehicle) + " choosen", save=True, path='/'.join(DATASET.split('/')[2:]), subpath='/construction_algorithm')
 			NODES[choosenNodeId].served = True
 			for vehicle in VEHICLES:
